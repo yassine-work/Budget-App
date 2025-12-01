@@ -2,7 +2,7 @@ import { useCallback, useState } from "react";
 import {Alert} from "react-native";
 
 
-const API_URL = process.env.API_URL;
+const API_URL = process.env.EXPO_PUBLIC_API_URL;
 
 export const useTransactions=(userId)=>{
     const [transactions,setTransactions]=useState([]);
