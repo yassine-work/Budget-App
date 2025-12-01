@@ -42,7 +42,7 @@ UPSTASH_REDIS_REST_TOKEN=...
 
 ```
 EXPO_PUBLIC_CLERK_PUBLISHABLE_KEY=...
-API_URL=http://<your_ip>:5001/api
+EXPO_PUBLIC_API_URL=http://<your_ip>:5001/api
 ```
 
 ---
